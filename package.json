@@ -5,6 +5,8 @@
   "main": ".prettierrc.json",
   "scripts": {
     "prepare": "husky install",
+    "lint": "run-s prettier-check",
+    "lint-fix": "run-s prettier",
     "prettier": "prettier -u --ignore-path .gitignore --write .",
     "prettier-check": "prettier -u --ignore-path .gitignore --check ."
   },
@@ -24,6 +26,7 @@
   "devDependencies": {
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1"
   },
   "lint-staged": {

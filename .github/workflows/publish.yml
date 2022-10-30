@@ -28,4 +28,4 @@ jobs:
         run: |
           npm config set _authToken=${{ secrets.NPM_TOKEN }}
       - name: Publish
-        run: npm publish --access=public --tag=beta
+        run: npm publish --access=public

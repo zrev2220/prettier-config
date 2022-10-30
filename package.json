@@ -1,0 +1,32 @@
+{
+  "name": "@zrev2220/prettier-config",
+  "version": "0.1.0",
+  "description": "My personal Prettier config",
+  "main": ".prettierrc.json",
+  "scripts": {
+    "prepare": "husky install",
+    "prettier": "prettier -u --ignore-path .gitignore --write .",
+    "prettier-check": "prettier -u --ignore-path .gitignore --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrev2220/prettier-config.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "https://github.com/zrev2220",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zrev2220/prettier-config/issues"
+  },
+  "homepage": "https://github.com/zrev2220/prettier-config#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "*": "prettier -u --ignore-path .gitignore --write"
+  }
+}

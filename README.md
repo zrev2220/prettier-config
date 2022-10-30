@@ -1,5 +1,7 @@
 # `@zrev2220/prettier-config`
 
+![npm (scoped)](https://img.shields.io/npm/v/@zrev2220/prettier-config)
+
 My personal Prettier config.
 
 ## Usage

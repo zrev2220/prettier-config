@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "My personal Prettier config",
   "main": ".prettierrc.json",
+  "files": [
+    ".prettierrc.json"
+  ],
   "scripts": {
     "prepare": "husky install",
     "lint": "run-s prettier-check",
